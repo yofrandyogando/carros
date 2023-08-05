@@ -1,0 +1,75 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.lol {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: rgb(234, 233, 246);
+    text-shadow: 0 0 10px rgb(0, 4, 235);
+    animation: brillo 2s infinite;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: 3cm;
+    margin-left: -1px;
+}
+
+.logo-container img {
+    max-width: 100%;
+}
+
+.options-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+    display: flex;
+}
+
+.options-container ul li {
+    margin-left: 4cm;
+}
+
+.options-container ul li:first-child {
+    margin-left: 0;
+}
+
+.options-container ul li a {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: rgb(246, 245, 233);
+    text-shadow: 0 0 10px rgb(0, 4, 235);
+    animation: brillo 2s infinite;
+    text-decoration: none;
+}
+
+
+/* Estilos responsivos */
+
+@media screen and (max-width: 768px) {
+    .logo-container {
+        margin-right: 1cm;
+    }
+    .options-container ul li {
+        margin-left: 25px;
+        position: relative;
+        left: -1cm;
+    }
+    .header {
+        margin-left: 1cm;
+    }
+}
