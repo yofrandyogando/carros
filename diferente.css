@@ -148,7 +148,7 @@ p {
     }
 }
 
-@media screen and (max-width:896px) {
+@media screen and (max-width:800px) {
     p {
         font-size: 9px;
         top: 1.8cm;
