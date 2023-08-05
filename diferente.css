@@ -102,7 +102,7 @@ ul.slider li:target {
 
 p {
     position: relative;
-    left: 76.2%;
+    left: 75%;
     transform: translateX(-50%);
     top: -.4cm;
     color: rgb(255, 255, 255);
